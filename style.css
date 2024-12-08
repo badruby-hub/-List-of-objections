@@ -1,0 +1,40 @@
+body {
+    display         : flex;
+    border: 1px solid gray;
+}
+
+.tree{
+    width: 100%;
+}
+
+div {
+    user-select: none;
+    cursor     : pointer;
+    padding  : .3em;
+    font-size: x-large;
+    color: blue;
+}
+div:hover {
+    font-weight    : bold;
+    text-decoration: underline;
+    color : red;
+}
+
+ul{
+    padding: 0;
+    li {
+        margin: .5em;
+        border: 1px solid gray;
+        list-style: none;
+    }
+}
+ul.block {
+    display: none;
+}
+.Objection {
+    padding  : .3em;
+    font-size:large;
+}
+
+
+
